@@ -17,7 +17,7 @@ const Banner = () => {
                             Henrietta Onoge
                         </h1>
                         <h1 className="text-2xl text-gray-600 mb-6 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:text-black">
-                            Full-stack Developer | Advancing in AI Integration
+                            Full-stack Developer | Quality Assurance Engineer | Advancing in AI Integration
                         </h1>
                     </div>
                     <div className="flex justify-center md:justify-start mb-4">

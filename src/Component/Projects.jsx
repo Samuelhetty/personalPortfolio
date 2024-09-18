@@ -7,144 +7,38 @@ const Projects = () => {
 
     const projectData = [
         {
-            image: 'images/projects/course/oop.png',
-            title: 'Inventory Management System ',
-            tags: ['Java', 'OOP', 'CLI', 'File Handling'],
-            category: 'Course',
+            image: 'images/projects/Aichatbot.png',
+            title: 'HOBot ',
+            tags: ['Botpress'],
+            category: 'Featured',
             githubLink: '#',
-            liveDemoLink: '#',
+            liveDemoLink: 'https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=619a770b-4644-4133-8ceb-4ca0fcfdf014',
         },
+       
         {
-            image: 'images/projects/course/se.jpeg',
-            title: 'University Bus Management System ',
-            tags: ['Software Engineering', 'Documentation'],
-            category: 'Course',
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/projects/js/crypto.jpeg',
-            title: 'Crypto Price Ckecker',
-            tags: ['JS', 'API', 'JSON', 'Live Tracking'],
-            category: 'Javascript',
-            githubLink: 'https://github.com/dev-rfgul/crypto-price-checker',
-            liveDemoLink: 'https://cryptoprices785.netlify.app/',
-        },
-        {
-            image: 'images/projects/js/music.jpeg',
-            title: 'Music Player',
-            tags: ['JS', 'Responsive', 'Spotify', 'HTML'],
-            category: 'Javascript',
-            githubLink: 'https://github.com/dev-rfgul/spotify',
-            liveDemoLink: 'https://spotify785.netlify.app/',
-        },
-        {
-            image: 'images/projects/js/qr.jpeg',
-            title: 'QR Code Generator',
-            tags: ['API', 'JS', 'Text to QR', 'Responsive'],
-            category: ['Javascript', 'Featured'],
-            githubLink: 'https://github.com/dev-rfgul/qr-code-generater',
-            liveDemoLink: 'https://qrcode785.netlify.app/',
-        },
-        {
-            image: 'images/projects/js/tictactoe.jpeg',
-            title: 'Tic Tac Toe Game',
-            tags: ['HTML', 'CSS', 'JS ', 'Game logic'],
-            category: 'Javascript',
-            githubLink: 'https://github.com/dev-rfgul/ticTacToe',
-            liveDemoLink: 'https://tictactoe785.netlify.app/',
-        },
-        {
-            image: 'images/projects/js/tts.jpeg',
-            title: 'Text to Speech',
+            image: 'images/projects/mic.jpeg',
+            title: 'TextConverter',
             tags: ['HTML', 'CSS', 'Vanilla JS', 'Text',],
             category: ['Javascript', 'Featured'],
-            githubLink: 'https://github.com/dev-rfgul/text-to-speech',
-            liveDemoLink: 'https://tts785.netlify.app/',
+            githubLink: 'https://github.com/Samuelhetty/textConverter',
+            liveDemoLink: 'https://texts-converter.netlify.app',
         },
         {
-            image: 'images/projects/js/weather1.jpeg',
-            title: 'Weather APP',
-            tags: ['HTML', 'CSS', 'JS', 'API', 'JSON'],
-            category: 'Javascript',
-            githubLink: 'https://github.com/dev-rfgul/weather-app',
-            liveDemoLink: 'https://weather785.netlify.app/',
+            image: 'images/projects/activeme.png',
+            title: 'ActiveMe (Fitness APP)',
+            tags: ['HTML', 'CSS', 'JS', 'API', 'JSON', 'NodeJs'],
+            category: ['Javascript', 'NodeJS'],
+            githubLink: 'https://github.com/Samuelhetty/activeme',
+            liveDemoLink: 'https://activeme.netlify.app',
         },
+      
         {
-            // image:'images/projects/react/password.jpeg',
-            image: 'https://images.pexels.com/photos/2882630/pexels-photo-2882630.jpeg?auto=compress&cs=tinysrgb&w=600',
-            title: 'Password Generator',
-            tags: ['Vite', 'React ', 'Select ', 'Copy'],
-            category: 'React',
-            githubLink: 'https://github.com/dev-rfgul/6-password-generator',
-            liveDemoLink: 'https://6-password-generator.vercel.app/',
-        },
-        {
-            image: 'images/projects/react/currencytesting.png',
-            title: 'Currency Converter',
-            tags: ['Vite', 'React ', 'API ', 'Live Conversion',],
-            category: 'React',
-            githubLink: 'https://github.com/dev-rfgul/7-currency-converter',
-            liveDemoLink: 'https://7-currency-converter-ten.vercel.app/',
-        },
-        {
-            image: 'images/projects/react/todo.jpg',
-            title: 'Todo List',
-            tags: ['React ', 'Context API ', 'state management',],
-            category: 'React',
-            githubLink: 'https://github.com/dev-rfgul/todolist-context-api-',
-            liveDemoLink: 'https://todolist-fawn-xi.vercel.app/',
-        },
-        {
-            image: 'images/projects/react/invoice.jpg',
-            title: 'Invoice Generator ',
-            tags: ['Vite', 'React', , 'Download', 'Print'],
-            category: 'React',
-            githubLink: 'https://github.com/dev-rfgul/invoice-generaator',
-            liveDemoLink: 'https://invoice-generaator.vercel.app/',
-        },
-        {
-            image: 'images/projects/react/dice.jpg',
-            title: 'Dice Game',
-            tags: ['React ', 'Random Number', 'Guess'],
-            category: ['React', 'Featured'],
-            githubLink: 'https://github.com/dev-rfgul/dice-game',
-            liveDemoLink: 'https://dice-game-lime-five.vercel.app/',
-        },
-
-        {
-            image: 'images/projects/react/img.jpg',
-            title: 'AI Vs Human Game',
-            tags: ['Vite', 'React ', 'Number Guessing'],
-            category: ['React', 'Featured'],
-            githubLink: 'https://github.com/dev-rfgul/ai-vs-human-vite-',
-            liveDemoLink: 'https://ai-vs-human-game.vercel.app/',
-        },
-        {
-            image: 'images/projects/react/binmukhtar.png',
-            title: 'Bin Mukhtar Tax Consultants',
-            tags: ['Next', 'React ', 'Company website'],
-            category: ['React', 'Featured'],
-            githubLink: 'https://github.com/dev-rfgul/bin-mukhtar',
-            liveDemoLink: 'https://binmukhtar.vercel.app/',
-        },
-        {
-            image: 'images/projects/react/bitxcoin.png',
-            title: 'Bit x Coin ',
-            tags: ['Vite', 'React ', 'Crytpo Mining'],
-            category: ['React', 'Featured'],
-            githubLink: 'https://github.com/dev-rfgul/bitxcoin',
-            liveDemoLink: 'https://bitxcoin.vercel.app/',
-        },
-
-
-        {
-            image: 'images/projects/backend/backend.jpeg',
-            title: 'Currently Learning',
-            tags: ['Node JS', 'Express ', 'Mongo DB ', 'API'],
-            category: ['Backend', ''],
-            githubLink: '',
-            liveDemoLink: '',
+            image: 'images/projects/morereaders.png',
+            title: 'MoreReaders',
+            tags: ['Python', 'React', 'Sass', 'Mongo DB ', 'API'],
+            category: ['Python', 'Featured', 'React'],
+            githubLink: 'https://www.github.com/Hovixen/MoreReaders',
+            liveDemoLink: 'https://drive.google.com/file/d/1idfTs8jZ6bJb2sv-LrWwfk-sy8BkLVcX/view?usp=sharing',
         },
 
 
@@ -152,10 +46,10 @@ const Projects = () => {
 
     const btns = [
         { label: 'Featured', value: 'Featured' },
-        { label: 'Course', value: 'Course' },
+        { label: 'Python', value: 'Python' },
         { label: 'Javascript', value: 'Javascript' },
         { label: 'React JS', value: 'React' },
-        { label: 'Backend ', value: 'Backend' },
+        { label: 'NodeJS', value: 'NodeJS' },
         { label: 'Show All', value: 'All' },
     ];
 
@@ -169,7 +63,7 @@ const Projects = () => {
 
     return (
         <div id='projects' className="p-4">
-            <Heading heading={"Projects"} subHeading={"projects I made "} />
+            <Heading heading={"Projects"} />
             <div className="flex flex-wrap justify-center mb-8">
                 {btns.map((btn) => (
                     <button

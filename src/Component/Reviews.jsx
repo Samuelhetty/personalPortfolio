@@ -8,55 +8,55 @@ const reviews = [
         name: "Nelson",
         username: "@Hovi",
         body: "I've never seen anything like this before. It's amazing. I love it. and i want to work with her again and agaiin  it feels so much amazing to work with him ",
-        img: "/images/banner-img.png"
+        img: "/images/tolu.jpeg"
     },
     {
         name: "George",
         username: "@George",
         body: "I don't know what to say. I'm speechless. This is amazing.",
-        img: "https://avatar.vercel.sh/jill"
+        img: "/images/tobi.jpeg"
     },
     {
         name: "Foluke",
         username: "@ClassicSparkles",
         body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/john"
+        img: "/images/jane.jpeg"
     },
     {
         name: "Jackson",
         username: "@jackson",
         body: "Her dedication to teamwork is evident as she consistently provides timely and valuable feedbacks on projects.",
-        img: "https://avatar.vercel.sh/jaskson"
+        img: "/images/jack.jpeg"
     },
     {
         name: "Jane",
         username: "@jane",
         body: "She demonstrates great talent and a strong work ethic.",
-        img: "https://avatar.vercel.sh/jane"
+        img: "/images/jane.jpeg"
     },
     {
         name: "Naomi",
         username: "@Naomi",
         body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/Naomi"
+        img: "/images/naomi.jpeg"
     },
     {
         name: "Joy",
         username: "@jaytinental",
         body: "This is awesome. I love it.",
-        img: "https://avatar.vercel.sh/joy"
+        img: "/images/joy.jpeg"
     },
     {
         name: "Tolu",
         username: "@Tolu",
         body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/Tolu"
+        img: "/images/tolu.jpeg"
     },
     {
         name: "Oluwatobi",
         username: "@thechosendevop",
         body: "Incredible!",
-        img: "https://avatar.vercel.sh/Naomi"
+        img: "/images/tobi.jpeg"
     }
 ]
 

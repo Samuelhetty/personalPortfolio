@@ -9,6 +9,7 @@ const slugs = [
     "ubuntu",
     "terminal", "html5",
     "css3",
+    "cypress",
     "tailwindcss",
     "bootstrap",
     "javascript",
@@ -29,6 +30,7 @@ const slugs = [
     "github",
     "gitlab",
     "githubcopilot",
+    "postman",
     "visualstudiocode",
 ];
 
@@ -36,7 +38,7 @@ const slugs = [
 const Skills = () => {
     return (
         <div id="skills" className="py-16 bg-white">
-            <Heading heading={"Skills"} subHeading={"skills i have"} />
+            <Heading heading={"Skills"} subHeading={"skills I have acquired"} />
             <div className="flex flex-col md:flex-row w-full min-h-screen p-6 md:p-10">
                 {/* Left Side: Skills Image */}
                 <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 animate-fade-in">
@@ -57,6 +59,7 @@ const Skills = () => {
                         <SkillItem skill="Next JS" stars={3} />
                         <SkillItem skill="GitHub" stars={5} />
                         <SkillItem skill="Vercel" stars={3} />
+                        <SkillItem skill="Cypress" stars={4} />
                         <SkillItem skill="Netlify" stars={3} />
                         <SkillItem skill="Python" stars={4} />
                         <SkillItem skill="Flask" stars={4} />
@@ -65,6 +68,7 @@ const Skills = () => {
                         <SkillItem skill="Express Js" stars={4} />
                         <SkillItem skill="MySQL" stars={4} />
                         <SkillItem skill="MongoDB" stars={4} />
+                        <SkillItem skill="Postman" stars={4} />
                     </div>
                 </div>
             </div>
@@ -88,5 +92,3 @@ const SkillItem = ({ skill, stars }) => (
 );
 
 export default Skills
-
-
